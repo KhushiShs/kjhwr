@@ -1,0 +1,22 @@
+# Git and environment
+.git
+.gitignore
+.env
+.env.example
+
+# Python
+.venv/
+venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.ruff_cache/
+
+# Node / Frontend
+**/node_modules/
+**/dist/
+frontend/dist/
+frontend/node_modules/
+
+# Markdown docs not needed in container
+*.md
