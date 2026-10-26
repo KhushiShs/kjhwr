@@ -10,6 +10,6 @@ services:
       - key: PORT
         value: 10000
       - key: CORS_ORIGINS
-        value: "*"
+        value: "https://kjhwr-mocha.vercel.app"
       - key: DATA_DIR
         value: /app/data
