@@ -134,12 +134,13 @@ This fetches 7-day chunked streams from Elexon BMRS, validates UTC timestamps, f
 
 ---
 
-## 4. Live Deployment Links
+## 4. Live Deployment
 
-- **Frontend (Vercel):** *Deployable via `frontend/vercel.json` (see [DEPLOYMENT.md](DEPLOYMENT.md))*
-- **Backend (Render / Heroku):** *Deployable via `render.yaml` or `backend/Procfile`*
+- **Live app (Vercel):** https://kjhwr-mocha.vercel.app/
+- **Backend API (Render):** https://windwise-backend-x8qp.onrender.com
+- **API docs (Swagger):** https://windwise-backend-x8qp.onrender.com/docs
 
-*(When deployed to production, set `VITE_API_URL` on Vercel to point to your deployed backend URL, and set `CORS_ORIGINS` on the backend to allow your Vercel domain).*
+> Note: the backend runs on a free tier and may take about a minute to wake on the first request.
 
 ---
 
